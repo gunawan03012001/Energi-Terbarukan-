@@ -1,13 +1,13 @@
 
 
 ### Analisis Potensi Energi Terbarukan dari Hutan Mangrove 2025 di Indonesia 
-***Nama : GUNAWAN***
+**Nama : GUNAWAN**
 
-***Nomor Absen : 05.037.DB2025***
+**Nomor Absen : 05.037.DB2025**
 
-***Batch & Asal : 10 / Kuala Tungkal / Jambi***
+**Batch & Asal : 10 / Kuala Tungkal / Jambi**
 
-***Hai Sobat Hijau! 🌱**
+***Hai Sobat Hijau! 🌱***
  
 Bayangkan, hutan mangrove yang luas 🌳🌊 bisa jadi sumber energi terbarukan yang luar biasa!  Bukan hanya indah dipandang, tapi juga menyimpan potensi energi yang besar.
  

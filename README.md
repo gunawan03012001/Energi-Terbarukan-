@@ -70,9 +70,58 @@ Jenis Energi Potensi Energi (kWh) Efisiensi (%)
        -Biogas 500 60 
        
        -Energi Gelombang 2000 50 
-       
- 
-# 💡 Kesimpulan:
+# berikut kode python yang saya gunakan🐍 
+```python
+data_mangrove = {
+    'Jenis Energi': ['Biomassa', 'Biogas', 'Energi Gelombang', 'Energi Surya'],
+    'Potensi Energi (kWh)': [1000, 500, 2000, 1500],
+    'Efisiensi (%)': [70, 60, 50, 80]
+}
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.DataFrame(data_mangrove)
+
+# Menghitung total potensi energi
+total_energi = df['Potensi Energi (kWh)'].sum()
+print(f"Total potensi energi: {total_energi} kWh")
+
+# Membuat grafik batang
+plt.figure(figsize=(8, 6))
+plt.bar(df['Jenis Energi'], df['Potensi Energi (kWh)'])
+plt.xlabel('Jenis Energi')
+plt.ylabel('Potensi Energi (kWh)')
+plt.title('Potensi Energi Terbarukan dari Mangrove')
+plt.show()
+
+
+# Menampilkan data dalam tabel yang rapi
+print("\nData Energi Terbarukan:")
+print(df)
+```     
+
+- Kode ini menunjukkan bagaimana memproses data deret waktu, misalnya produksi energi selama beberapa tahun.
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = {
+    'Tahun': range(2015, 2025),
+    'Biogas_Produksi_kWh': [1000, 1200, 1500, 1400, 1800, 2000, 1900, 2200, 2500, 2400, 2800, 3000]
+}
+
+df = pd.DataFrame(data)
+
+plt.figure(figsize=(10, 6))
+plt.plot(df['Tahun'], df['Biogas_Produksi_kWh'])
+plt.xlabel('Tahun')
+plt.ylabel('Biogas Produksi (kWh)')
+plt.title('Tren Produksi Biogas dari Mangrove')
+plt.show()
+```
+
+## 💡 Kesimpulan:
 Analisis ini akan menunjukkan potensi besar hutan mangrove sebagai sumber energi terbarukan,  memberikan informasi penting untuk perencanaan dan implementasi program energi berkelanjutan.
  
 # 🙌 Kontribusi:

@@ -3,7 +3,7 @@
 ### Analisis Potensi Energi Terbarukan dari Hutan Mangrove 2025 di Indonesia 
 **Nama : GUNAWAN**
 
-**Nomor Absen : 05.005.DB2025**
+**Nomor Absen : 10.005.DB2025**
 
 **Batch & Asal : 10 / Kuala Tungkal / Jambi**
 
